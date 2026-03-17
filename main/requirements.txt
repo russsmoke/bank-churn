@@ -1,0 +1,46 @@
+# Core data science libraries
+pandas
+numpy
+scipy
+
+# Machine learning
+scikit-learn
+joblib
+
+# XGBoost (опционально, для улучшения качества)
+xgboost
+
+# API и веб-сервер
+fastapi
+uvicorn[standard]
+python-multipart  # для обработки загружаемых файлов
+pydantic
+pydantic-settings  # для работы с .env
+
+# Интерпретация модели
+shap
+# Визуализация (для EDA и отчетов)
+matplotlib
+seaborn
+plotly  # опционально, для интерактивных графиков
+
+# Работа с файлами и окружением
+python-dotenv
+pyyaml  # для работы с конфигами
+
+# Тестирование
+pytest
+pytest-cov  # для проверки покрытия кода тестами
+httpx  # для тестирования API
+
+# Инструменты разработки (опционально)
+black  # форматирование кода
+flake8  # линтер
+jupyter  # для ноутбуков с EDA
+ipykernel  # ядро для Jupyter
+
+# Для скачивания данных с Kaggle (опционально)
+kaggle
+
+# Логирование
+loguru  # удобное логирование
