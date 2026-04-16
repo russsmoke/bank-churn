@@ -1,0 +1,26 @@
+# Общие настройки проекта
+random_state: 42
+test_size: 0.2
+
+# Пути к данным
+data:
+  raw_path: "data/raw/Churn_Modelling.csv"
+
+# Признаки
+features:
+  - CreditScore
+  - Age
+  - Tenure
+  - Balance
+  - NumOfProducts
+  - IsActiveMember
+  - Age_Group
+  - Tenure_Ratio
+  - Balance_Per_Product
+  - Active_Senior
+  - Has_Balance
+  - Is_Multi_Product
+  - Gender_Male
+
+age_bins: [18, 30, 40, 50, 60, 100]
+age_labels: [0, 1, 2, 3, 4]
