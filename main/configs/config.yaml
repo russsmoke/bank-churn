@@ -22,5 +22,5 @@ features:
   - Is_Multi_Product
   - Gender_Male
 
-age_bins: [18, 30, 40, 50, 60, 100]
+age_bins: [17, 30, 40, 50, 60, 100]
 age_labels: [0, 1, 2, 3, 4]

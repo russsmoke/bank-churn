@@ -1,0 +1,14 @@
+Feature,Mean_SHAP
+Age,0.7684498
+NumOfProducts,0.69247496
+IsActiveMember,0.3577364
+Gender_Male,0.22724731
+Balance,0.15404014
+Age_Group,0.10553003
+Has_Balance,0.08338836
+CreditScore,0.07392762
+Balance_Per_Product,0.07361483
+Tenure_Ratio,0.060446545
+Is_Multi_Product,0.04952712
+Active_Senior,0.026662776
+Tenure,0.008223472

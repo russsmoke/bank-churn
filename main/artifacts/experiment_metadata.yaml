@@ -1,0 +1,54 @@
+best_params:
+  colsample_bytree: 0.8
+  learning_rate: 0.05
+  max_depth: 3
+  n_estimators: 200
+  subsample: 0.8
+cv_mean: 0.8537250575645832
+cv_std: 0.004789946651974781
+experiment_date: '2026-04-19T22:23:40.902898'
+feature_importance:
+- Feature: Age_Group
+  Importance: 0.1834254413843155
+- Feature: Is_Multi_Product
+  Importance: 0.14471757411956787
+- Feature: Age
+  Importance: 0.12650540471076965
+- Feature: NumOfProducts
+  Importance: 0.12643501162528992
+- Feature: IsActiveMember
+  Importance: 0.11134808510541916
+- Feature: Has_Balance
+  Importance: 0.08991587907075882
+- Feature: Active_Senior
+  Importance: 0.07817475497722626
+- Feature: Gender_Male
+  Importance: 0.0437677800655365
+- Feature: Balance
+  Importance: 0.02767486684024334
+- Feature: Balance_Per_Product
+  Importance: 0.022625086829066277
+- Feature: CreditScore
+  Importance: 0.017220189794898033
+- Feature: Tenure_Ratio
+  Importance: 0.016322806477546692
+- Feature: Tenure
+  Importance: 0.011867213994264603
+features:
+- CreditScore
+- Age
+- Tenure
+- Balance
+- NumOfProducts
+- IsActiveMember
+- Age_Group
+- Tenure_Ratio
+- Balance_Per_Product
+- Active_Senior
+- Has_Balance
+- Is_Multi_Product
+- Gender_Male
+model_type: XGBoost
+optimal_threshold: 0.28185397386550903
+test_f1: 0.5585023400936038
+test_roc_auc: 0.8589560284475538

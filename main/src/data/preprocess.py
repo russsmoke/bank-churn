@@ -53,8 +53,8 @@ class DataPreprocessor:
         self.scaler = None
         
         # Параметры для Age_Group
-        self.age_bins = self.config.get('age_bins', [18, 30, 40, 50, 60, 100])
-        self.age_labels = self.config.get('age_labels', [0, 1, 2, 3, 4])
+        self.age_bins = self.config.get('age_bins')
+        self.age_labels = self.config.get('age_labels')
         
         # Колонки, которые нужно удалить
         self.drop_cols = [
@@ -67,7 +67,7 @@ class DataPreprocessor:
     def _get_default_config(self):
         """Возвращает конфигурацию по умолчанию"""
         return {
-            'age_bins': [18, 30, 40, 50, 60, 100],
+            'age_bins': [17, 30, 40, 50, 60, 100],
             'age_labels': [0, 1, 2, 3, 4],
             'random_state': 42,
             'test_size': 0.2
