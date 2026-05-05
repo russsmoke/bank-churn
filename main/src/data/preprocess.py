@@ -165,6 +165,14 @@ class DataPreprocessor:
             'Active_Senior', 'Has_Balance', 'Is_Multi_Product', 'Gender_Male'
         ]
     
+    def fit(self, X, y=None):
+        X_scaled, _, _ = self.preprocess(X, fit_scaler=True)
+        return self
+
+    def transform(self, X):
+        X_scaled, _, _ = self.preprocess(X, fit_scaler=False)
+        return X_scaled
+
     def preprocess(self, df, fit_scaler=False):
         """
         Полный пайплайн предобработки данных.
